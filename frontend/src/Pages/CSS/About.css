@@ -1,0 +1,146 @@
+/* about.css */
+
+/* CSS/About.css */
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply styles to the header section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+#navbar {
+  list-style-type: none;
+}
+
+#navbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Apply styles to the mobile icon */
+#mobile {
+  display: none;
+}
+
+/* Adjust styles for smaller screens */
+@media only screen and (max-width: 768px) {
+  #mobile {
+    display: block;
+  }
+
+  #navbar {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background-color: #333;
+    padding: 10px;
+  }
+
+  #navbar.active {
+    display: block;
+  }
+}
+
+/* Apply styles to the page header section */
+#page-header {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* Apply styles to the about head section */
+#about-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+#about-head img {
+  width: 40%;
+  max-width: 400px;
+}
+
+#about-head div {
+  width: 50%;
+}
+
+/* Apply styles to the feature section */
+#feature {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+.img-box {
+  text-align: center;
+}
+
+.img-box img {
+  width: 100%;
+  max-width: 200px;
+}
+
+/* Apply styles to the login section */
+#login {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Apply styles to the footer section */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.colll {
+  text-align: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+/* Apply styles to the social media icons */
+.icon i {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+/* Apply styles to the form input and button */
+.form input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #555;
+}
