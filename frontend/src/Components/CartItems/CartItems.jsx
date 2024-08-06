@@ -103,7 +103,7 @@ const CartItems = () => {
 
   const placeOrder = async () => {
     try {
-      const response = await fetch("http://localhost:4000/addorder", {
+      const response = await fetch("https://uniform-zone.vercel.app/addorder", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

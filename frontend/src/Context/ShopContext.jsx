@@ -48,12 +48,12 @@ const ShopContextProvider = (props) => {
   // }, []);
   const [cartItems, setCartItems] = useState({});
   useEffect(() => {
-    fetch("http://localhost:4000/allproducts")
+    fetch("https://uniform-zone.vercel.app/allproducts")
       .then((res) => res.json())
       .then((data) => setAll_Product(data));
     //Fetch cart data from the backend
     if (localStorage.getItem("auth-token")) {
-      fetch("http://localhost:3001/getcart", {
+      fetch("https://uniform-zone.vercel.app/getcart", {
         method: "POST",
         headers: {
           Accept: "application/json",
@@ -131,7 +131,7 @@ const ShopContextProvider = (props) => {
     if (localStorage.getItem("auth-token")) {
       axios
         .post(
-          "http://localhost:3001/addtocart",
+          "https://uniform-zone.vercel.app/addtocart",
           {
             productId,
             selectedSize,
@@ -212,7 +212,7 @@ const ShopContextProvider = (props) => {
     if (localStorage.getItem("auth-token")) {
       axios
         .post(
-          "http://localhost:3001/removeFromcart",
+          "https://uniform-zone.vercel.app/removeFromcart",
           {
             productId: productIdToRemove,
             selectedSize: productSize,
