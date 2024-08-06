@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.76982b0d.css",
+    "main.js": "/static/js/main.2a857a67.js",
+    "static/media/bipro.jpg": "/static/media/bipro.97a1fda3f86100faf27a.jpg",
+    "static/media/Mandir.img.png": "/static/media/Mandir.img.f3ae4507803aeaa0c67d.png",
+    "static/media/rm.img.png": "/static/media/rm.img.a61aa70e565ace880c0f.png",
+    "static/media/NC.img.png": "/static/media/NC.img.c3be1d81d866ae3a1ec8.png",
+    "static/media/KV.img.png": "/static/media/KV.img.7c4aa496a76bc911441b.png",
+    "static/media/GCcollege.png": "/static/media/GCcollege.993070b0d570d84eae9b.png",
+    "static/media/Don.Bosco.img.png": "/static/media/Don.Bosco.img.336c09565b23c3ac54bd.png",
+    "static/media/pv.tshart.b.png": "/static/media/pv.tshart.b.af70e3bf5e6b0a5b0958.png",
+    "static/media/Picsart_24-02-24_12-35-54-581-removebg-preview.png": "/static/media/Picsart_24-02-24_12-35-54-581-removebg-preview.3b6e5150d295e2e0d4e5.png",
+    "static/media/Cachar.logo.png": "/static/media/Cachar.logo.9f2cd75ae5a620885dea.png",
+    "static/media/shoe.img.png": "/static/media/shoe.img.1ca9b6e63a73b12664e1.png",
+    "static/media/subhro.jpeg": "/static/media/subhro.48d0b05bdbd04920ccf8.jpeg",
+    "static/media/bijon.jpeg": "/static/media/bijon.78bc5548a7e4f9f561c9.jpeg",
+    "static/media/gc.college.pantf.png": "/static/media/gc.college.pantf.6091ebf0a54868e8c48c.png",
+    "static/media/sahul.jpg": "/static/media/sahul.4fe5c812675b537ca657.jpg",
+    "static/media/web3.png": "/static/media/web3.cad1568c4cd0a168c96e.png",
+    "static/media/gc.college.tie.png": "/static/media/gc.college.tie.0df4f35ddccfd327b441.png",
+    "static/media/sharuk.jpeg": "/static/media/sharuk.81ac084377623181a76e.jpeg",
+    "index.html": "/index.html",
+    "main.76982b0d.css.map": "/static/css/main.76982b0d.css.map",
+    "main.2a857a67.js.map": "/static/js/main.2a857a67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76982b0d.css",
+    "static/js/main.2a857a67.js"
+  ]
+}
